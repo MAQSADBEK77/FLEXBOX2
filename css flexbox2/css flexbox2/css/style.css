@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background: url(../img/foods.webp);
+    background-size: 100%;
+    max-width: 2000px;
+}
+.contaniar {
+    flex-wrap: wrap;
+}
+.block1 {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+   background-color: blueviolet;
+    color: #fff;
+    border-radius: 10px;
+}
+.block2 {
+    background-color: black;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+flex-wrap: wrap
+
+}
+.block2 a:hover {
+    color: blueviolet;
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+.block2 a:nth-child(2) {
+    color: black;
+    background-color: aqua;
+    border-radius: 10px;
+}
+.block2 a {
+    font-size: 25px;
+    color: white;
+    background-color: violet;
+    padding: 21px;
+    border-radius: 20px;
+}
+
+.block3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+.block3 img {
+    width: 230px;
+    height: 190px;
+    border-radius: 20px;
+}
+.block3 p {
+    font-size: 26px;
+    color:rgb(255, 0, 0);
+    background-color: rgb(43, 226, 226);
+    text-align: center;
+    border-radius: 20px;
+}
+.block3 ul {
+    font-size: 16px;
+    color:rgb(255, 0, 0);
+    background-color: rgb(43, 226, 226);
+    text-align: center; 
+width: 190px;
+border-radius: 20px;
+}
